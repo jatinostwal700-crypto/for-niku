@@ -2,63 +2,95 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>For You</title>
+<title>For You 💗</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
 
 <style>
 body {
   margin: 0;
-  background: radial-gradient(circle at top, #1b1b1b, #000);
-  color: #fff;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #ffd6e8, #ffc0d9, #ffb3d1);
   font-family: 'Playfair Display', serif;
-  text-align: center;
-  padding: 30px;
+  color: #5a0035;
+  overflow-x: hidden;
 }
 
 .container {
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
   animation: fadeIn 2s ease;
 }
 
 h1 {
-  font-weight: 400;
-  margin-bottom: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
+  margin-bottom: 5px;
 }
 
-p.sub {
+.subtitle {
   opacity: 0.8;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 input, button {
   width: 100%;
   padding: 14px;
-  margin: 12px 0;
-  font-size: 16px;
-  border-radius: 8px;
+  margin: 10px 0;
+  border-radius: 12px;
   border: none;
+  font-size: 16px;
 }
 
 button {
-  background: #fff;
-  color: #000;
+  background: #ff69b4;
+  color: white;
   font-weight: bold;
   cursor: pointer;
 }
 
+button:hover {
+  background: #ff4fa6;
+}
+
 #preview img {
   width: 100%;
-  max-width: 360px;
-  border-radius: 12px;
-  margin-top: 20px;
+  max-width: 320px;
+  border-radius: 16px;
+  margin-top: 15px;
 }
 
 #letter {
   display: none;
   margin-top: 40px;
   text-align: left;
+  background: rgba(255,255,255,0.6);
+  padding: 25px;
+  border-radius: 20px;
   line-height: 1.8;
   animation: reveal 2s ease forwards;
+}
+
+.big-n {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Dancing Script', cursive;
+  font-size: 220px;
+  color: rgba(255, 105, 180, 0.15);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.heart {
+  position: fixed;
+  color: #ff69b4;
+  font-size: 18px;
+  animation: floatUp 6s linear infinite;
 }
 
 @keyframes fadeIn {
@@ -70,14 +102,21 @@ button {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+@keyframes floatUp {
+  from { transform: translateY(100vh); opacity: 1; }
+  to { transform: translateY(-10vh); opacity: 0; }
+}
 </style>
 </head>
 
 <body>
 
+<div class="big-n">N</div>
+
 <div class="container">
-  <h1>Some things are meant to be discovered</h1>
-  <p class="sub">Only if you know where to look.</p>
+  <h1>Some love is meant to be discovered 💕</h1>
+  <p class="subtitle">Only if you know the right date.</p>
 
   <input type="file" accept="image/*" onchange="previewImage(event)">
   <div id="preview"></div>
@@ -86,37 +125,39 @@ button {
   <button onclick="unlock()">Unlock</button>
 
   <div id="letter">
-    <h2>ð</h2>
+    <h2 style="font-family:'Dancing Script', cursive;">💌 My Swettuuuu,</h2>
+
     <p>
-      My Swettuuuu,
+Happiest 3rd year anniversary. Omg, I still can’t believe we’re already here.
+We’ve spent 1,095 days together as a couple — that’s 26,280 hours and 94,608,000 seconds as besties. Uff, what a journey it has been.
 
-Happiest 3rd year anniversary. Omg, I still canât believe weâre already here.
-Weâve spent 1,095 days together as a couple â thatâs 26,280 hours and 94,608,000 seconds as besties. Uffâ¦ what a journey it has been.
+You have truly been the biggest blessing in my life. Like, for real. You changed me in the best way possible and made me feel special every single day. Not a single day passed where you didn’t take care of me or check up on me.
 
-You have truly been the biggest blessing in my life. Like, for real. You changed me in the best way possible. You made me feel special every single day â not a single day passed where you didnât take care of me or check up on me.
+Nikuu, my precious, the prettiest woman in the entire universe — from the bottom of my heart, thank you for choosing me over everyone else. Thank you for loving me unconditionally and for standing by me through every obstacle I faced.
 
-Nikuu, my precious, the prettiest woman in the entire universe â from the bottom of my heart, thank you for choosing me over everyone else. Thank you for loving me unconditionally and for standing by me through every obstacle I faced. Youâve been my guide, my soulmate, my only friend who made my college life worth living.
+Whenever I think about my college life, I honestly feel emotional, because if you weren’t there, it would have been a disaster. These three years would’ve felt like jail. But you changed me — you gave me freedom, brought out my inner child, gave me confidence, and made me actually enjoy college.
 
-Whenever I think about college, I honestly feel emotional because if you werenât there, it would have been a disaster. These three years wouldâve felt like jail. But you changed me â you gave me freedom, brought out my inner child, gave me confidence, and made me actually enjoy college.
+There wasn’t a single day I didn’t want to meet you. Not a single minute when you weren’t on my mind. Thank you, my baby girl, for these beautiful three years — and for everything that’s still ahead.
 
-There wasnât a single day I didnât want to meet you. Not a single minute when you werenât on my mind. Thank you, my baby girl, for these beautiful three years â and for everything thatâs still ahead.
+My princess, I’ll always try my best to become the prince of your dreams — someone who fulfills all your needs and gives you all the happiness you’ve always deserved. I promise you, one day I will marry you, and that day isn’t very far now. We’re closer to marriage than we were when we started dating.
 
-My princess, Iâll always try my best to become the prince of your dreams â someone who fulfills all your needs and gives you all the happiness youâve always deserved for your entire lifetime. I promise you, one day I will marry you â and that day isnât very far now. Weâre closer to marriage than we were when we started datingâ¦ hehe.
+I want to marry young, travel the world with you, explore different places, stay there for weeks, and live life fully with you. Just imagine us having the best time of our lives. I’ll be spending three-fourths of my life with you — and that’s exactly why I love love.
 
-I want to marry young, travel the world with you, explore different places, stay there for weeks, and live life fully with you. Just imagine us having the best time of our lives. Iâll be spending three-fourths of my life with you â isnât that crazy? And thatâs exactly why I love love.
+You made me realize what love actually is. I’ve never felt this way before. Thank you for showering me with so much love, care, and joy. Thank you, God, for giving me the most precious gift of this lifetime.
 
-You made me realize what love actually is. Iâve never felt this way before, baby. Never. Thank you for showering me with so much love, care, and joy. Thank you, God, for giving me the most precious gift of this lifetime.
+You are my world. My universe.  
+I love you sooo much, Señorita.
 
-Thank you so much, Niku. You are the best â the most beautiful, stunning, hottie, sexy, kindest, and purest soul on this planet. You are my world, my universe.
-
-I love you sooo much, SeÃ±orita.
-Once again, happiest 3rd year anniversary, Niku. â¤ï¸
+Happy 3 years, Niku 💗
     </p>
   </div>
 </div>
 
 <script>
+let imageUploaded = false;
+
 function previewImage(event) {
+  imageUploaded = true;
   const reader = new FileReader();
   reader.onload = function() {
     document.getElementById("preview").innerHTML =
@@ -126,13 +167,29 @@ function previewImage(event) {
 }
 
 function unlock() {
-  if (document.getElementById("key").value === "09/01/2023") {
+  const key = document.getElementById("key").value;
+  if (!imageUploaded) {
+    alert("Upload the image first 💗");
+    return;
+  }
+  if (key === "09/01/2023") {
     document.getElementById("letter").style.display = "block";
     document.getElementById("letter").scrollIntoView({ behavior: "smooth" });
   } else {
-    alert("Not everything opens easily.");
+    alert("Some things open only for love 💕");
   }
 }
+
+// floating hearts
+setInterval(() => {
+  const heart = document.createElement("div");
+  heart.className = "heart";
+  heart.innerHTML = "💗";
+  heart.style.left = Math.random() * 100 + "vw";
+  heart.style.animationDuration = (4 + Math.random() * 4) + "s";
+  document.body.appendChild(heart);
+  setTimeout(() => heart.remove(), 6000);
+}, 400);
 </script>
 
 </body>
